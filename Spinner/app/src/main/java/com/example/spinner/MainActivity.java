@@ -16,8 +16,6 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // hello
-
         Spinner spinner=findViewById(R.id.spinner1);
 
         ArrayAdapter<CharSequence> adapter=ArrayAdapter.createFromResource(this,R.array.images, android.R.layout.simple_spinner_item);
